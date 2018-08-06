@@ -77,6 +77,12 @@ set "@prefix_highlight_bg" "$onedark_green"
 set "@prefix_highlight_copy_mode_attr" "fg=$onedark_black,bg=$onedark_green"
 set "@prefix_highlight_output_prefix" "  "
 
+set "@batt_color_full_charge" "#[fg=$onedark_green]"
+set "@batt_color_high_charge" "#[fg=$onedark_blue]"
+set "@batt_color_medium_charge" "#[fg=$onedark_yellow]"
+set "@batt_color_low_charge" "#[fg=$onedark_red]"
+set "@batt_color_charging" "#[fg=$onedark_green]"
+
 datetime_format="%a, %R"
 widget_bg=$(get "@onedark_widget_bg")
 widget_fg=$(get "@onedark_widget_fg")
